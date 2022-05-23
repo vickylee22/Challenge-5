@@ -85,7 +85,7 @@ In this section, you’ll use the MCForecastTools library to create a Monte Carl
 
 3. Plot the probability distribution of the Monte Carlo simulation. Plot the probability distribution of the Monte Carlo simulation. The following image shows the histogram plot resulting from a simulation with these characteristics. However, because a random number generator is used to run each live Monte Carlo simulation, your image will differ slightly from this exact image:
 
-![hist plot](Starter_Code/Images/5-4-monte-carlo-histogram-plot.png)
+![hist plot](Starter_Code/Images/5-4-monte-carlo-histogram.png)
 
 4. Generate the summary statistics for the Monte Carlo simulation.
 
