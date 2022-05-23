@@ -21,7 +21,7 @@ Navigate the JSON response object to access the current price of each coin, and 
 
 Calculate the value, in US dollars, of the current amount of each cryptocurrency and of the entire cryptocurrency wallet.
 
-## Evaluate the Stock and Bond Holdings by Using the Alpaca SDK
+### Evaluate the Stock and Bond Holdings by Using the Alpaca SDK
 In this section, you’ll determine the current value of a member’s stock and bond holdings. You’ll make an API call to Alpaca via the Alpaca SDK to get the current closing prices of the SPDR S&P 500 ETF Trust (ticker: SPY) and of the iShares Core US Aggregate Bond ETF (ticker: AGG). For the prototype, assume that the member holds 110 shares of SPY, which represents the stock portion of their portfolio, and 200 shares of AGG, which represents the bond portion. To do all this, complete the following steps:
 
 1. In the ```Starter_Code``` folder, create an environment file (```.env```) to store the values of your Alpaca API key and Alpaca secret key.
