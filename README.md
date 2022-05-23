@@ -23,8 +23,6 @@ Navigate the JSON response object to access the current price of each coin, and 
 
 Calculate the value, in US dollars, of the current amount of each cryptocurrency and of the entire cryptocurrency wallet.
 
---- 
-
 ### Evaluate the Stock and Bond Holdings by Using the Alpaca SDK
 In this section, you’ll determine the current value of a member’s stock and bond holdings. You’ll make an API call to Alpaca via the Alpaca SDK to get the current closing prices of the SPDR S&P 500 ETF Trust (ticker: SPY) and of the iShares Core US Aggregate Bond ETF (ticker: AGG). For the prototype, assume that the member holds 110 shares of SPY, which represents the stock portion of their portfolio, and 200 shares of AGG, which represents the bond portion. To do all this, complete the following steps:
 
@@ -45,8 +43,6 @@ In this section, you’ll determine the current value of a member’s stock and 
 5. Navigating the Alpaca response DataFrame, select the ```SPY``` and ```AGG``` closing prices, and store them as variables.
 
 6. Calculate the value, in US dollars, of the current amount of shares in each of the stock and bond portions of the portfolio, and print the results.
-
----
 
 ### Evaluate the Emergency Fund
 In this section, you’ll use the valuations for the cryptocurrency wallet and for the stock and bond portions of the portfolio to determine if the credit union member has enough savings to build an emergency fund into their financial plan. To do this, complete the following steps:
@@ -93,13 +89,10 @@ In this section, you’ll use the MCForecastTools library to create a Monte Carl
 
 4. Generate the summary statistics for the Monte Carlo simulation.
 
----
-
 ### Analyze the Retirement Portfolio Forecasts
 Using the current value of only the stock and bond portion of the member's portfolio and the summary statistics that you generated from the Monte Carlo simulation, answer the following question in your Jupyter notebook:
 
-    - What are the lower and upper bounds for the expected value of the portfolio with a 95% confidence interval?
----
+What are the lower and upper bounds for the expected value of the portfolio with a 95% confidence interval?
 
 ### Forecast Cumulative Returns in 10 Years
 The CTO of the credit union is impressed with your work on these planning tools but wonders if 30 years is a long time to wait until retirement. So, your next task is to adjust the retirement portfolio and run a new Monte Carlo simulation to find out if the changes will allow members to retire earlier.
