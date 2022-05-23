@@ -81,11 +81,11 @@ In this section, you’ll use the MCForecastTools library to create a Monte Carl
 
 2. Run a Monte Carlo simulation of 500 samples and 30 years for the 60/40 portfolio, and then plot the results.The following image shows the overlay line plot resulting from a simulation with these characteristics. However, because a random number generator is used to run each live Monte Carlo simulation, your image will differ slightly from this exact image:
 
-![line plot](Starter_code/images/5-4-monte-carlo-line-plot.png)
+![line plot](Starter_code/Images/5-4-monte-carlo-line-plot.png)
 
 3. Plot the probability distribution of the Monte Carlo simulation. Plot the probability distribution of the Monte Carlo simulation. The following image shows the histogram plot resulting from a simulation with these characteristics. However, because a random number generator is used to run each live Monte Carlo simulation, your image will differ slightly from this exact image:
 
-![hist plot](Starter_code/images/5-4-monte-carlo-histogram-plot.png)
+![hist plot](Starter_code/Images/5-4-monte-carlo-histogram-plot.png)
 
 4. Generate the summary statistics for the Monte Carlo simulation.
 
